@@ -56,9 +56,10 @@
 		EE2746C020E937E0000B5D32 /* Swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				EE2746D320E940C2000B5D32 /* Views */,
+				EE3D914B20EBBEEA000C966E /* Controller */,
+				EE3D914A20EBBEE2000C966E /* Model */,
+				EE2746D320E940C2000B5D32 /* View */,
 				EE2746C120E937E0000B5D32 /* AppDelegate.swift */,
-				EE2746C320E937E0000B5D32 /* ViewController.swift */,
 				EE2746C520E937E0000B5D32 /* Main.storyboard */,
 				EE2746C820E937E1000B5D32 /* Assets.xcassets */,
 				EE2746CA20E937E1000B5D32 /* LaunchScreen.storyboard */,
@@ -67,12 +68,27 @@
 			path = Swoosh;
 			sourceTree = "<group>";
 		};
-		EE2746D320E940C2000B5D32 /* Views */ = {
+		EE2746D320E940C2000B5D32 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				EE2746D420E94102000B5D32 /* BorderButton.swift */,
 			);
-			path = Views;
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE3D914A20EBBEE2000C966E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE3D914B20EBBEEA000C966E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE2746C320E937E0000B5D32 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
